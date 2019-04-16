@@ -1,6 +1,6 @@
 # Javascript
 
-## Javascript is a lightweight, cross-platform, object-oriented computer programming language :smile:
+Javascript is a lightweight, cross-platform, object-oriented computer programming language :smile:
 
 - Javascript is one of the three core technologies of web development (HTML, CSS and JS).
 - Today, Javascript can be used in different places:
@@ -14,3 +14,9 @@
   - Modern web applications that we can interact with.
 
 **Frameworks/Libraries like React, Angular and Vue are 100% based on Javascript**
+
+1. 01_basics
+
+- Variables
+- Data Types
+- Variables mutation and type coercion
