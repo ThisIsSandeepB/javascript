@@ -33,3 +33,37 @@ console.log(job);
   2. cannot have symbol in the middle
   3. we cannot use javascript reserved keyword as variable name (like: for, if, while etc).
 */
+
+/* -------------------------------------------------- */
+/* VARIABLES MUTATION AND TYPE COERCION */
+/* -------------------------------------------------- */
+
+var personName = 'John';
+var personAge = 28;
+var personJob = 'Scientist';
+var isMarried = false;
+var personHobbies;
+var personSkills = null;
+
+// This is type coercion (javascript convert number, boolean, undefined and null to a string)
+console.log(personName + ' ' + personAge);
+console.log(
+  personName +
+    ' is a ' +
+    personAge +
+    ' years old ' +
+    personJob +
+    '. Is he married? ' +
+    isMarried +
+    ' he likes ' +
+    personHobbies +
+    ' he has skills ' +
+    personSkills
+);
+
+// Variable mutation (This is variable mutation in javascript we can change variable value on the fly)
+personAge = 'Twenty eight';
+
+// Prompt to take input from users.
+// var personLastName = prompt('What is your last name');
+// alert(personLastName);
